@@ -21,7 +21,9 @@ Dev Note:   All other scripts are demonstrations of interfacing the 2 standalone
 
 
 Non-standard APIs used:
-Pygame       = used mostly for hardware and graphics backend
+
+Pygame:
+used mostly for hardware and graphics backend
 
 
 
