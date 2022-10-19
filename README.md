@@ -9,8 +9,8 @@ This application was writen as a project submission to CSU for robotics. The pre
 
 I created 2 standalone APIs for the project:
 -----------------------------------------------------------------------------------------------------------------------------------
->TombStone 
->Pycontroller
+[TombStone ]
+Pycontroller
 
 >Tombstone    = A network layer for the Tello Drone platform 
 >Pycontroller = A controller api that supoorts multicontroller and dynamic remapping of the control input. 
