@@ -2,7 +2,7 @@
 FreeFlight is a student project created to control DJI Tello drones via gamepad and with a basic GUI 
 
 Fall Semester 2022 - Columbus State Univeristy 
-Writen by: Steven Andrews II 
+// Writen by: Steven Andrews II 
 -----------------------------------------------------------------------------------------------------------------------------------
 
 This application was writen as a project submission to CSU for robotics. The premise of the project was to control DJI Tello drones with a gamepad and render a GUI for the flight telemetry data. 
