@@ -9,7 +9,7 @@ This application was writen as a project submission to CSU for robotics. The pre
 
 I created 2 standalone APIs for the project:
 -----------------------------------------------------------------------------------------------------------------------------------
-[ TombStone ] | [ Pycontroller ] 
+[ TombStone ] | [ PyGame controller ] 
 
 
 >Tombstone    = A network layer for the Tello Drone platform 
