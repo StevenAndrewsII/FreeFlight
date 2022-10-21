@@ -184,7 +184,7 @@ while not EXIT_:
     # 60 FPS calc
     accum           = (accum        + cur_tick)    
     skip            = max_skip                      # rexet frame skipping 
-    # 30 FPS calc
+    #120
     accum_          = (accum_       + cur_tick)    
     skip_           = max_skip_                
  
