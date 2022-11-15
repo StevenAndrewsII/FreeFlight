@@ -14,7 +14,7 @@ I created 2 standalone APIs for the project:
 
 >Tombstone    = A network layer for the Tello Drone platform 
 >
->PyGame controller = A controller api that supoorts multicontroller and dynamic remapping of the control input. 
+>PyGame controller = A controller api that suports multicontroller and dynamic remapping of the control input. 
 
 
 
