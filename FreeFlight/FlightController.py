@@ -381,7 +381,7 @@ class FC(object):
                 self.communication.uplink( cmd, True)
                 self.dead_                  = True
 
-            #   stream data at 60 FPS
+            #   stream data at 120 FPS
             if  self.channel_0_alive  == True or self.channel_1_alive  == True or self.channel_2_alive == True or self.channel_3_alive == True or self.circle == True:
                 print("Streaming:  ",self.channels)
                 cmd = 'rc {} {} {} {}'.format( self.channels[0] , self.channels[1] , self.channels[2] , self.channels[3] )
