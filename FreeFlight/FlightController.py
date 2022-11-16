@@ -97,10 +97,22 @@ class TombStone(object):
 
     '''Utility:      Quick toggle comunications off   '''
     def disconnect(self):
-        if  self.connection_data["connection_toggle"]           == False:
+        if  self.connection_data["connection_toggle"]           != False:
             self.connection_data["connection_state"]            = False
             socket.socket .close(self.client_socket )                    
             socket.socket .close(self.client_state_socket )
+            self.connection_data["connection_toggle"]           = False
+            return  True
+        else:
+            return  True
+        
+    '''Utility:      Quick toggle comunications on  ( default is on ) '''
+    def connect(self):
+        if  self.connection_data["connection_toggle"]           != True:
+            self.connection_data["connection_state"]            = False
+            socket.socket .close(self.client_socket )                    
+            socket.socket .close(self.client_state_socket )
+            self.connection_data["connection_toggle"]           = True
             return  True
         else:
             return  True
